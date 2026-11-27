@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang="am">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANDI AFTA LEGETA</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f8ff;
+  color: #17345c;
+}
+header {
+  background: #0755b5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header h1 { margin: 5px; }
+nav {
+  background: white;
+  padding: 15px;
+  text-align: center;
+}
+nav a {
+  color: #0755b5;
+  text-decoration: none;
+  margin: 10px;
+  font-weight: bold;
+}
+.hero {
+  text-align: center;
+  padding: 65px 20px;
+  background: linear-gradient(135deg,#0755b5,#398bdf);
+  color: white;
+}
+.hero h2 { font-size: 32px; }
+button {
+  background: white;
+  color: #0755b5;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+section {
+  max-width: 900px;
+  margin: auto;
+  padding: 35px 20px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #ccd9ec;
+  flex: 1 1 250px;
+}
+footer {
+  background: #073b7a;
+  color: white;
+  text-align: center;
+  padding: 22px;
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>ANDI AFTA LEGETA</h1>
+  <p>አንድ አፍታ ለጌታ</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#fellowship">Fellowship</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero" id="home">
+  <h2>እንኳን ወደ ANDI AFTA LEGETA በደህና መጡ!</h2>
+  <p>One moment for the Lord. One family in Christ.</p>
+  <button onclick="document.getElementById('fellowship').scrollIntoView()">
+    Join Fellowship
+  </button>
+</div>
+
+<section id="about">
+  <h2>ስለ እኛ | About Us</h2>
+  <p>
+    ANDI AFTA LEGETA is a Christian fellowship platform
+    created to bring believers together in prayer,
+    worship, Bible study and spiritual growth.
+  </p>
+</section>
+
+<section id="fellowship">
+  <h2>Our Fellowships</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>ANDI AFTA LEGETA</h3>
+      <p>Prayer, worship and Bible study.</p>
+    </div>
+    <div class="card">
+      <h3>1 አፍታ ለጌታ</h3>
+      <p>አንድነት፣ ጸሎትና የእግዚአብሔር ቃል።</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>Welcome to our Christian fellowship family.</p>
+</section>
+
+<footer>
+  <p>© 2026 ANDI AFTA LEGETA</p>
+  <p>ከስልክህ በፊት፣ ቃሉ</p>
+</footer>
+
+</body>
+</html>
