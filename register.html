@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ANDI AFTA LEGETA - Registration</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#eef5ff;
+  color:#17345c;
+}
+header{
+  background:#0756ad;
+  color:white;
+  text-align:center;
+  padding:25px 12px;
+}
+main{
+  max-width:480px;
+  margin:30px auto;
+  padding:25px;
+  background:white;
+  border-radius:16px;
+  box-shadow:0 5px 20px #0001;
+}
+h2{text-align:center;color:#0756ad}
+label{display:block;margin-top:15px;font-weight:bold}
+input,select{
+  width:100%;
+  padding:13px;
+  margin-top:7px;
+  border:1px solid #b9cce3;
+  border-radius:8px;
+  font-size:16px;
+}
+button{
+  width:100%;
+  padding:14px;
+  margin-top:22px;
+  border:0;
+  border-radius:9px;
+  background:#0756ad;
+  color:white;
+  font-size:17px;
+  font-weight:bold;
+}
+.note{text-align:center;font-size:13px;color:#64748b}
+a{color:#0756ad}
+</style>
+</head>
+<body>
+<header>
+  <h1>ANDI AFTA LEGETA</h1>
+  <p>One moment for the Lord. One family in Christ.</p>
+</header>
+<main>
+  <h2>Member Registration</h2>
+  <form onsubmit="event.preventDefault(); alert('Demo only: Registration is not yet connected to a database.');">
+    <label>Full Name</label>
+    <input type="text" placeholder="Enter your full name" required>
+
+    <label>Phone Number</label>
+    <input type="tel" placeholder="Enter phone number" required>
+
+    <label>Email (Optional)</label>
+    <input type="email" placeholder="Enter your email">
+
+    <label>Select Fellowship</label>
+    <select required>
+      <option value="">Choose fellowship</option>
+      <option>ANDI AFTA LEGETA</option>
+      <option>1 አፍታ ለጌታ</option>
+    </select>
+
+    <label>Password</label>
+    <input type="password" placeholder="Create password" required>
+
+    <label>Confirm Password</label>
+    <input type="password" placeholder="Confirm password" required>
+
+    <button type="submit">Register</button>
+  </form>
+  <p class="note">Registration demo — database connection is not yet active.</p>
+  <p class="note"><a href="index.html">Back to Home</a></p>
+</main>
+</body>
+</html>
